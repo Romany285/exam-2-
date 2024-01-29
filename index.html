@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ----title---- -->
+    <title>Yummy</title>
+    <!-- ----ico----  -->
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon" />
+    <!-- ----fontawesome file---- -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- ----bootstrap css file---- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- ----style file---- -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav id="nav" class="d-flex z-2">
+      <div class="nav-links d-flex flex-column justify-content-between">
+        <ul class="links mt-4 px-4">
+            <li class="position-relative" onclick="closeNav();searchInput()"><h6>Search</h6></li>
+            <li class="position-relative" onclick="closeNav();getCategories()"><h6>Categories</h6></li>
+            <li class="position-relative" onclick="closeNav();getArea()"><h6>Area</h6></li>
+            <li class="position-relative" onclick="closeNav();getIngredients()"><h6>Ingredients</h6></li>
+            <li class="position-relative" onclick="closeNav();showContact()"><h6>Contact Us</h6></li>
+        </ul>
+         <div class="nav-footer text-white px-4 pb-3">
+            <div class="nav-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="nav-text">
+                <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+            </div>
+         </div>
+      </div>
+   
+      <div class="nav-logo d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black h-100">
+        <img src="./image/logo.png" alt="" />
+        <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+        <div>
+          <i class="fa-solid fa-globe d-block"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="loading">
+        <div class="sk-chase">
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+        </div>
+      </div>
+      <div class="container w-75 " id="search">
+       
+      </div>
+      <div class="container">
+        <div id="rowData" class="row py-5">
+           
+            
+        </div> 
+      </div>
+     
+    </section>
+    <!-- ----jquery file---- -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- ----bootstrap js file---- -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- ----js file---- -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
